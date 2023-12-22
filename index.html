@@ -5,9 +5,7 @@
 </audio>
 const player = new Plyr("#audio-player");
 player.on('ready', () => {
-  console.log('플레이어가 준비되었습니다.');
-
-  // 커스텀 속성 추가
+  console.log('Ready.');
   player.source = {
     type: 'audio',
     title: 'My Audio',
