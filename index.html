@@ -3,6 +3,7 @@
 <audio id="audio-player" controls>
   <source src="audio.mp3" type="audio/mp3">
 </audio>
+<script>
 const player = new Plyr("#audio-player");
 player.on('ready', () => {
   console.log('Ready.');
@@ -17,3 +18,4 @@ player.on('ready', () => {
     ],
   };
 });
+</script>
