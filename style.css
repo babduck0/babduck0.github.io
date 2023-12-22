@@ -22,6 +22,9 @@
 .logo{
     width: 140px;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .content{
     width: 100%;
