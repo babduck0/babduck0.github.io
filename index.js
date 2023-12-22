@@ -3,7 +3,7 @@ var mySong=document.getElementById('mySong');
         var logo=document.getElementById('logo');
         var text1=document.getElementById('text1');
         var text2=document.getElementById('text2');
-        var container = document.querySelector('.container');
+        var container=document.querySelector('.container');
         icon.onclick=function(){
             if(mySong.paused){
                 mySong.play();
