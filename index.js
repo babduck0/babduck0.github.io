@@ -14,7 +14,7 @@ var mySong=document.getElementById('mySong');
                 text1.style.display = 'none';
                 text2.style.display = 'none';
                 logo.style.display = 'none';
-                container.style.backgroundImage = "url('media/image.png')";
+                container.style.backgroundImage = url('media/Letter.jpg');
             }
             else{
                 mySong.pause();
@@ -25,6 +25,6 @@ var mySong=document.getElementById('mySong');
                 text1.style.display = 'block';
                 text2.style.display = 'block';
                 logo.style.display = 'block';
-                container.style.backgroundImage = "url('media/couple2.jpg')";
+                container.style.backgroundImage = url('media/couple2.jpg');
             }
         }
