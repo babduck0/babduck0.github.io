@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100%;
     background-image: url('media/couple2.jpg');
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     position: relative;
     overflow: hidden; /* 이미지가 화면을 넘어가지 않도록 함 */
