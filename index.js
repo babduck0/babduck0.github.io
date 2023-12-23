@@ -16,6 +16,9 @@ if (mySong && icon && logo && text1 && text2 && container) {
             text2.style.display = 'none';
             logo.style.display = 'none';
             container.style.backgroundImage = "url('media/myletter_3m.jpg')";
+            container.style.backgroundSize = "contain"
+            container.style.paddingTop = "30px"
+            container.style.paddingBottom = "30px"
         }
         else{
             mySong.pause();
@@ -26,6 +29,9 @@ if (mySong && icon && logo && text1 && text2 && container) {
             text2.style.display = 'block';
             logo.style.display = 'block';
             container.style.backgroundImage = "url('media/couple2.jpg')";
+            container.style.backgroundSize = "cover"
+            container.style.paddingTop = ""
+            container.style.paddingBottom = ""
         }
     }
 } else {
