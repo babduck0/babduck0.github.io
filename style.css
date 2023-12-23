@@ -11,6 +11,7 @@
     background-size:cover;
     background-position: center;
     position: relative;
+    overflow: hidden; /* 이미지가 화면을 넘어가지 않도록 함 */
 }
 .navbar{
     width: 88%;

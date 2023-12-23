@@ -15,7 +15,7 @@ if (mySong && icon && logo && text1 && text2 && container) {
             text1.style.display = 'none';
             text2.style.display = 'none';
             logo.style.display = 'none';
-            container.style.backgroundImage = "url('media/myletter.jpg')";
+            container.style.backgroundImage = "url('media/myletter_3m.jpg')";
         }
         else{
             mySong.pause();
